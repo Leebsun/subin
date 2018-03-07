@@ -400,7 +400,7 @@
 					${menuTitle}<span>&nbsp;("*" 는 필수 입력 사항입니다.)</span>	
 				</div>
 				<div class="contents_wrapper">
-					<form id="frm" action="${pageContext.request.contextPath}/member/memberJoin" method="post" enctype="multipart/form-data">
+					<form id="frm" action="${pageContext.request.contextPath}/member/memberJoinSucess" method="post" enctype="multipart/form-data">
 						<table class="joinForm">
 							<tr>
 								<td class="joinTitles"><h4>아이디<span class="required_mark">*</span></h4></td>

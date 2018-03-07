@@ -5,9 +5,10 @@
   
   <mapper namespace="com.subin.member.memberMapper">
 
-<select id='test' resultType="Test">
-	 select * from test
-</select>
+<!-- 회원가입 쿼리 -->
+<insert id="memberJoin" parameterType="MemberDTO">
+	  		INSERT INTO member VALUES(#{id}, #{pw}, #{name}, #{phone}, #{email}, #{age}, #{address})
+	  	</insert>
 
 
 
