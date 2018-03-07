@@ -11,12 +11,15 @@ import com.subin.kid.bean.TestBean;
 @Service
 
 public class TestServiceImpl implements TestService {
+
 	@Inject
+
 	private TestDAO dao;
 
-
+	
 
 	@Override
+
 	public List<TestBean> test()throws Exception {
 
 		// TODO Auto-generated method stub
